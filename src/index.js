@@ -9,17 +9,18 @@ import './components/02-useEffect/effect.css';
 //import { HookApp } from './HookApp';
 //import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
-import { FocusScreen } from './components/04-Useref/FocusScreen';
-import { RealExampleRef } from './components/04-Useref/RealExampleRef';
-import { LayoutEffect } from './components/05-uselayoutEffect/LayoutEffect';
-import { Memorize } from './components/06-Memos/Memorize';
-import { MemoHook } from './components/06-Memos/MemoHooks';
-import { CallbackHook } from './components/06-Memos/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+//import { FocusScreen } from './components/04-Useref/FocusScreen';
+//import { RealExampleRef } from './components/04-Useref/RealExampleRef';
+//import { LayoutEffect } from './components/05-uselayoutEffect/LayoutEffect';
+//import { Memorize } from './components/06-Memos/Memorize';
+//import { MemoHook } from './components/06-Memos/MemoHooks';
+//import { CallbackHook } from './components/06-Memos/CallbackHook';
+//import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 ReactDOM.render(
   
-    <Padre />,
+    <TodoApp />,
 
     document.getElementById('root')
 );
